@@ -168,8 +168,7 @@ Setelah **pAntler** meluncurkan setiap proses, seharusnya ada empat jendela term
 #### 1.8.2   Menentukan Ruang Lingkup Contoh pXRelay dengan uXMS
 Di antara keempat jendela yang diluncurkan dalam contoh tersebut, jendela yang perlu diperhatikan adalah jendela uXMS , yang seharusnya memiliki keluaran serupa dengan berikut ini (dikurangi nomor baris):
 
-Daftar 1.1 - Contoh keluaran uXMS setelah contoh pXRelay diluncurkan.
-
+**Daftar 1.1** - Contoh keluaran uXMS setelah contoh pXRelay diluncurkan.
 ```
   0 VarName (S)sumber (T)ime (C)komunitas VarValue
   1 ---------------- ---------- --------- ---------- ----------- (73)
