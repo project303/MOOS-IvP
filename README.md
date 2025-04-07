@@ -5,7 +5,7 @@
 -    [MOOS Overview](https://github.com/project303/MOOS-IvP/blob/main/a-very-brief-overview-of-moos.md)
 -    Example Mission Alpha
 -    [IvPHelm as a MOOS App](https://github.com/project303/MOOS-IvP/blob/main/the-ivphelm-as-a-moos-application.md)
--    Helm Autonomy
+-    [Helm Autonomy](https://github.com/project303/MOOS-IvP/blob/main/ivp-helm-autonomy.md)
 -    Behavior Properties
 
 ### Solo Behaviors
