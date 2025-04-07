@@ -63,8 +63,8 @@ Parameter konfigurasi berikut ditetapkan untuk helm. Nama parameter tidak peka h
 
 **Daftar 1.1** - Parameter Konfigurasi untuk pHelmIvP.
 
-| Variable	| Deskripsi | 
-| ----------| ----------| 
+| Variable	               | Deskripsi | 
+| ------------------------ | ----------| 
 | allow_park :|	Jika salah, kemudi tidak dapat ditempatkan di PARK . Parameter ini tidak wajib. Nilai default adalah benar. |
 | behaviors :|	Nama dan lokasi berkas konfigurasi perilaku. Parameter ini tidak wajib, tetapi biasanya digunakan. Secara teknis, helm dapat diluncurkan dari baris perintah dan menyediakan berkas perilaku pada baris perintah. |
 | ivp_behavior_dir :|	Direktori untuk mencari perilaku yang dimuat secara dinamis. Parameter ini tidak wajib, karena informasi direktori juga dapat ditangani menggunakan variabel lingkungan shell. |
