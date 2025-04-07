@@ -61,6 +61,20 @@ Untuk mendapatkan wawasan lebih jauh tentang penghentian total yang disebabkan o
 ### 1.4   Parameter untuk Blok Konfigurasi MOOS pHelmIvP   
 Parameter konfigurasi berikut ditetapkan untuk helm. Nama parameter tidak peka huruf besar/kecil.
 
-Daftar 1.1 - Parameter Konfigurasi untuk pHelmIvP.
+**Daftar 1.1** - Parameter Konfigurasi untuk pHelmIvP.
 
+| Variable	| Deskripsi | 
+| ----------| ----------| 
+| allow_park :|	Jika salah, kemudi tidak dapat ditempatkan di PARK . Parameter ini tidak wajib. Nilai default adalah benar. |
+| behaviors :|	Nama dan lokasi berkas konfigurasi perilaku. Parameter ini tidak wajib, tetapi biasanya digunakan. Secara teknis, helm dapat diluncurkan dari baris perintah dan menyediakan berkas perilaku pada baris perintah. |
+| ivp_behavior_dir :|	Direktori untuk mencari perilaku yang dimuat secara dinamis. Parameter ini tidak wajib, karena informasi direktori juga dapat ditangani menggunakan variabel lingkungan shell. |
+| community :| Parameter MOOS global. Menentukan nama kepemilikan. Parameter ini wajib, tetapi disediakan di luar blok konfigurasi helm dan digunakan oleh aplikasi lain. |
+| park_on_allstop :| Jika benar, kemudi akan berhenti sepenuhnya. Parameter ini tidak wajib dan default-nya adalah false. Bagian . |
+| domain :|	Ruang keputusan untuk IvP Solver. Parameter ini wajib diisi. |
+| hold_on_app :|	Daftar aplikasi MOOS yang harus ditunggu sebelum helm menerbitkan posting dari panggilan fungsi onHelmStart() perilaku . Tersedia setelah Rilis 17.7.x. |
+| ok_skew :|	Toleransi usia, dalam detik, dari surat masuk sebelum ditolak karena dianggap terlalu lama. Parameter ini tidak wajib. |
+| other_override_var :|	Parameter tersebut menamai variabel MOOS tambahan yang bertindak sebagai MOOS_MANUAL_OVERIDE . Parameter ini tidak wajib. |
+| start_in_drive :|	Menentukan apakah kemudi dalam mode override saat start-up atau tidak. Parameter ini tidak wajib. Nilai default adalah false. Secton . |
+| helm_prefix :|	Tambahkan awalan ke semua keluaran helm DESIRED_* . Misalnya helm_prefix=FOO_ akan menghasilkan FOO_DESIRED_SPEED dan seterusnya. Diperkenalkan setelah Rilis 19.8.x |
+| verbose :|	Menentukan verbositas keluaran terminal - quiet , ringkas , atau verbose . Parameter ini tidak wajib. Defaultnya adalah verbose . |
 
