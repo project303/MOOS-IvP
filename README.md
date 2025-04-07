@@ -2,7 +2,7 @@
 
 ### Introduction
 -    Design Overview
--    MOOS Overview
+-    [MOOS Overview](https://github.com/project303/MOOS-IvP/blob/main/a-very-brief-overview-of-moos.md)
 -    Example Mission Alpha
 -    IvPHelm as a MOOS App
 -    Helm Autonomy
